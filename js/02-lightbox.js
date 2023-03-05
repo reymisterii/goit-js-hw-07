@@ -25,4 +25,4 @@ function createMarkeUp(galleryItems) {
   return markUp;
 };
 
-let lightbox = new SimpleLightbox('.gallery a', { /* options */ });
+let lightbox = new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250, });
